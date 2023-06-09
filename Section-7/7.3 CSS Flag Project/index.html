@@ -5,19 +5,24 @@
   <meta charset="UTF-8">
   <title>CSS Flag Project</title>
   <style>
-
     .flag {
       width: 900px;
       height: 600px;
-      background-color: #ce1126;
       position: relative;
+      background-color: #ce1126;
     }
 
     .flag p {
       text-align: center;
     }
 
-    .flag > div {
+    .flag>p {
+      margin: 0;
+      font-size: 5rem;
+      color: white;
+    }
+
+    .flag>div {
       height: 300px;
       width: 100%;
       /* width: 900px; */
@@ -26,25 +31,20 @@
       top: 150px;
     }
 
-    .flag > div > div {
+    .flag>div p {
+      font-size: 5rem;
+      margin: 0;
+    }
+
+    .flag>div>div {
       height: 200px;
       width: 200px;
-      background-color: white;
       border-radius: 50%;
+      background-color: white;
+
       position: absolute;
       top: 50px;
       left: 350px;
-    }
-
-    .flag > p {
-      color: white;
-      font-size: 5rem;
-      margin: 0;
-    }
-
-    .flag > div p {
-      font-size: 5rem;
-      margin: 0;
     }
   </style>
 </head>
