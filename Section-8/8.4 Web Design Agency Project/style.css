@@ -36,3 +36,17 @@ footer {
 .right {
   float: right;
 }
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: powderblue;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
