@@ -13,7 +13,13 @@
     .container {
       color: white;
       border: 5px solid gold;
-      display: flex;
+      display: inline-flex; /*It only takes how much it needs */
+      flex-direction: column;
+      /* width: 50px; */
+    }
+
+    .container > div {
+      height: 100px;
     }
 
     /*
