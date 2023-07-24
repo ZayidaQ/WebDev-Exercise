@@ -13,15 +13,11 @@
 // input
 let guestList = ["Angela", "Jack", "pam", "James", "Lara", "Jason"];
 
-let name = prompt("What is your name?");
+let guestName = prompt("What is your name?");
 
 // calculation
-
-// output
-
-// Running
-/*
-
-    -
-
-*/
+if (guestList.includes(guestName)) {
+    alert("Welcome" + guestName)
+} else {
+    alert("sorry, try again..")
+}
